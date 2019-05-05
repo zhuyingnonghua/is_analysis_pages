@@ -1,0 +1,1168 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>学生列表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/学生列表/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/学生列表/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u472" class="ax_default box_1">
+        <div id="u472_div" class=""></div>
+      </div>
+
+      <!-- 菜单栏 (组 合) -->
+      <div id="u473" class="ax_default" data-label="菜单栏" data-left="-8" data-top="0" data-width="923" data-height="305">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u474" class="ax_default box_1">
+          <div id="u474_div" class=""></div>
+          <div id="u474_text" class="text ">
+            <p><span>用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u475" class="ax_default box_1">
+          <img id="u475_img" class="img " src="images/查看成绩/u20.png"/>
+          <div id="u475_text" class="text ">
+            <p><span>选择课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u476" class="ax_default box_1">
+          <div id="u476_div" class=""></div>
+          <div id="u476_text" class="text ">
+            <p><span>已选课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u477" class="ax_default box_1">
+          <div id="u477_div" class=""></div>
+          <div id="u477_text" class="text ">
+            <p><span>个人信息维护</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u478" class="ax_default box_1">
+          <div id="u478_div" class=""></div>
+          <div id="u478_text" class="text ">
+            <p style="font-size:36px;"><span>&nbsp;&nbsp; &nbsp;&nbsp; 课程管理信息系统</span></p><p style="font-size:20px;"><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Courses management information system</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u479" class="ax_default box_1">
+          <div id="u479_div" class=""></div>
+          <div id="u479_text" class="text ">
+            <p><span>退出登录</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 导航 (组 合) -->
+      <div id="u480" class="ax_default" data-label="导航" data-left="154" data-top="125" data-width="148" data-height="32">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u481" class="ax_default box_1">
+          <div id="u481_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u482" class="ax_default box_1">
+          <div id="u482_div" class=""></div>
+          <div id="u482_text" class="text ">
+            <p><span>课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u483" class="ax_default box_1">
+          <div id="u483_div" class=""></div>
+          <div id="u483_text" class="text ">
+            <p><span>/</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u484" class="ax_default box_1">
+          <div id="u484_div" class=""></div>
+          <div id="u484_text" class="text ">
+            <p><span>学生列表</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u485" class="ax_default box_1">
+        <div id="u485_div" class=""></div>
+        <div id="u485_text" class="text ">
+          <p><span style="text-decoration:underline;">接口：getStudents</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u486" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u487" class="ax_default table_cell">
+          <img id="u487_img" class="img " src="images/学生列表/u487.png"/>
+          <div id="u487_text" class="text ">
+            <p><span>学号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u488" class="ax_default table_cell">
+          <img id="u488_img" class="img " src="images/学生列表/u488.png"/>
+          <div id="u488_text" class="text ">
+            <p><span>姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u489" class="ax_default table_cell">
+          <img id="u489_img" class="img " src="images/学生列表/u489.png"/>
+          <div id="u489_text" class="text ">
+            <p><span>班级</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u490" class="ax_default table_cell">
+          <img id="u490_img" class="img " src="images/学生列表/u490.png"/>
+          <div id="u490_text" class="text ">
+            <p><span>Github用户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u491" class="ax_default table_cell">
+          <img id="u491_img" class="img " src="images/学生列表/u491.png"/>
+          <div id="u491_text" class="text ">
+            <p><span>修改日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u492" class="ax_default table_cell">
+          <img id="u492_img" class="img " src="images/学生列表/u492.png"/>
+          <div id="u492_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u493" class="ax_default table_cell">
+          <img id="u493_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u493_text" class="text ">
+            <p><span>201610414301</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u494" class="ax_default table_cell">
+          <img id="u494_img" class="img " src="images/选择需授课程/u342.png"/>
+          <div id="u494_text" class="text ">
+            <p><span>小张</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u495" class="ax_default table_cell">
+          <img id="u495_img" class="img " src="images/学生列表/u495.png"/>
+          <div id="u495_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u496" class="ax_default table_cell">
+          <img id="u496_img" class="img " src="images/学生列表/u496.png"/>
+          <div id="u496_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u497" class="ax_default table_cell">
+          <img id="u497_img" class="img " src="images/学生列表/u497.png"/>
+          <div id="u497_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u498" class="ax_default table_cell">
+          <img id="u498_img" class="img " src="images/学生列表/u498.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u499" class="ax_default table_cell">
+          <img id="u499_img" class="img " src="images/学生列表/u499.png"/>
+          <div id="u499_text" class="text ">
+            <p><span>201610414302</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u500" class="ax_default table_cell">
+          <img id="u500_img" class="img " src="images/选择需授课程/u347.png"/>
+          <div id="u500_text" class="text ">
+            <p><span>小王</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u501" class="ax_default table_cell">
+          <img id="u501_img" class="img " src="images/学生列表/u501.png"/>
+          <div id="u501_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u502" class="ax_default table_cell">
+          <img id="u502_img" class="img " src="images/学生列表/u502.png"/>
+          <div id="u502_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u503" class="ax_default table_cell">
+          <img id="u503_img" class="img " src="images/学生列表/u503.png"/>
+          <div id="u503_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u504" class="ax_default table_cell">
+          <img id="u504_img" class="img " src="images/学生列表/u504.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u505" class="ax_default table_cell">
+          <img id="u505_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u505_text" class="text ">
+            <p><span>201610414303</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u506" class="ax_default table_cell">
+          <img id="u506_img" class="img " src="images/选择需授课程/u342.png"/>
+          <div id="u506_text" class="text ">
+            <p><span>张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u507" class="ax_default table_cell">
+          <img id="u507_img" class="img " src="images/学生列表/u495.png"/>
+          <div id="u507_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u508" class="ax_default table_cell">
+          <img id="u508_img" class="img " src="images/学生列表/u496.png"/>
+          <div id="u508_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u509" class="ax_default table_cell">
+          <img id="u509_img" class="img " src="images/学生列表/u497.png"/>
+          <div id="u509_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u510" class="ax_default table_cell">
+          <img id="u510_img" class="img " src="images/学生列表/u498.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u511" class="ax_default table_cell">
+          <img id="u511_img" class="img " src="images/学生列表/u499.png"/>
+          <div id="u511_text" class="text ">
+            <p><span>201610414304</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u512" class="ax_default table_cell">
+          <img id="u512_img" class="img " src="images/选择需授课程/u347.png"/>
+          <div id="u512_text" class="text ">
+            <p><span>李四</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u513" class="ax_default table_cell">
+          <img id="u513_img" class="img " src="images/学生列表/u501.png"/>
+          <div id="u513_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u514" class="ax_default table_cell">
+          <img id="u514_img" class="img " src="images/学生列表/u502.png"/>
+          <div id="u514_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u515" class="ax_default table_cell">
+          <img id="u515_img" class="img " src="images/学生列表/u503.png"/>
+          <div id="u515_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u516" class="ax_default table_cell">
+          <img id="u516_img" class="img " src="images/学生列表/u504.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u517" class="ax_default table_cell">
+          <img id="u517_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u517_text" class="text ">
+            <p><span>201610414305</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u518" class="ax_default table_cell">
+          <img id="u518_img" class="img " src="images/选择需授课程/u342.png"/>
+          <div id="u518_text" class="text ">
+            <p><span>王五</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u519" class="ax_default table_cell">
+          <img id="u519_img" class="img " src="images/学生列表/u495.png"/>
+          <div id="u519_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u520" class="ax_default table_cell">
+          <img id="u520_img" class="img " src="images/学生列表/u496.png"/>
+          <div id="u520_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u521" class="ax_default table_cell">
+          <img id="u521_img" class="img " src="images/学生列表/u497.png"/>
+          <div id="u521_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u522" class="ax_default table_cell">
+          <img id="u522_img" class="img " src="images/学生列表/u498.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u523" class="ax_default table_cell">
+          <img id="u523_img" class="img " src="images/学生列表/u523.png"/>
+          <div id="u523_text" class="text ">
+            <p><span>201610414306</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u524" class="ax_default table_cell">
+          <img id="u524_img" class="img " src="images/学生列表/u524.png"/>
+          <div id="u524_text" class="text ">
+            <p><span>张思</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u525" class="ax_default table_cell">
+          <img id="u525_img" class="img " src="images/学生列表/u525.png"/>
+          <div id="u525_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u526" class="ax_default table_cell">
+          <img id="u526_img" class="img " src="images/学生列表/u526.png"/>
+          <div id="u526_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u527" class="ax_default table_cell">
+          <img id="u527_img" class="img " src="images/学生列表/u527.png"/>
+          <div id="u527_text" class="text ">
+            <p><span>2019-03-20 11:22:03</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u528" class="ax_default table_cell">
+          <img id="u528_img" class="img " src="images/学生列表/u528.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u529" class="ax_default primary_button">
+        <div id="u529_div" class=""></div>
+        <div id="u529_text" class="text ">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u530" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u531" class="ax_default table_cell">
+          <img id="u531_img" class="img " src="images/学生列表/u487.png"/>
+          <div id="u531_text" class="text ">
+            <p><span>学号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u532" class="ax_default table_cell">
+          <img id="u532_img" class="img " src="images/学生列表/u532.png"/>
+          <div id="u532_text" class="text ">
+            <p><span>姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u533" class="ax_default table_cell">
+          <img id="u533_img" class="img " src="images/学生列表/u533.png"/>
+          <div id="u533_text" class="text ">
+            <p><span>班级</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u534" class="ax_default table_cell">
+          <img id="u534_img" class="img " src="images/学生列表/u534.png"/>
+          <div id="u534_text" class="text ">
+            <p><span>Github用户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u535" class="ax_default table_cell">
+          <img id="u535_img" class="img " src="images/学生列表/u535.png"/>
+          <div id="u535_text" class="text ">
+            <p><span>成绩1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u536" class="ax_default table_cell">
+          <img id="u536_img" class="img " src="images/学生列表/u535.png"/>
+          <div id="u536_text" class="text ">
+            <p><span>成绩2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u537" class="ax_default table_cell">
+          <img id="u537_img" class="img " src="images/学生列表/u537.png"/>
+          <div id="u537_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u538" class="ax_default table_cell">
+          <img id="u538_img" class="img " src="images/学生列表/u538.png"/>
+          <div id="u538_text" class="text ">
+            <p><span>实验6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u539" class="ax_default table_cell">
+          <img id="u539_img" class="img " src="images/学生列表/u539.png"/>
+          <div id="u539_text" class="text ">
+            <p><span>平均成绩</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u540" class="ax_default table_cell">
+          <img id="u540_img" class="img " src="images/学生列表/u540.png"/>
+          <div id="u540_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u541" class="ax_default table_cell">
+          <img id="u541_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u541_text" class="text ">
+            <p><span>201610414301</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u542" class="ax_default table_cell">
+          <img id="u542_img" class="img " src="images/学生列表/u542.png"/>
+          <div id="u542_text" class="text ">
+            <p><span>小张</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u543" class="ax_default table_cell">
+          <img id="u543_img" class="img " src="images/学生列表/u543.png"/>
+          <div id="u543_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u544" class="ax_default table_cell">
+          <img id="u544_img" class="img " src="images/学生列表/u544.png"/>
+          <div id="u544_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u545" class="ax_default table_cell">
+          <img id="u545_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u545_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u546" class="ax_default table_cell">
+          <img id="u546_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u546_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u547" class="ax_default table_cell">
+          <img id="u547_img" class="img " src="images/学生列表/u547.png"/>
+          <div id="u547_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u548" class="ax_default table_cell">
+          <img id="u548_img" class="img " src="images/学生列表/u548.png"/>
+          <div id="u548_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u549" class="ax_default table_cell">
+          <img id="u549_img" class="img " src="images/学生列表/u549.png"/>
+          <div id="u549_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u550" class="ax_default table_cell">
+          <img id="u550_img" class="img " src="images/学生列表/u550.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u551" class="ax_default table_cell">
+          <img id="u551_img" class="img " src="images/学生列表/u499.png"/>
+          <div id="u551_text" class="text ">
+            <p><span>201610414302</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u552" class="ax_default table_cell">
+          <img id="u552_img" class="img " src="images/学生列表/u552.png"/>
+          <div id="u552_text" class="text ">
+            <p><span>小王</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u553" class="ax_default table_cell">
+          <img id="u553_img" class="img " src="images/学生列表/u553.png"/>
+          <div id="u553_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u554" class="ax_default table_cell">
+          <img id="u554_img" class="img " src="images/学生列表/u554.png"/>
+          <div id="u554_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u555" class="ax_default table_cell">
+          <img id="u555_img" class="img " src="images/学生列表/u555.png"/>
+          <div id="u555_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u556" class="ax_default table_cell">
+          <img id="u556_img" class="img " src="images/学生列表/u555.png"/>
+          <div id="u556_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u557" class="ax_default table_cell">
+          <img id="u557_img" class="img " src="images/学生列表/u557.png"/>
+          <div id="u557_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u558" class="ax_default table_cell">
+          <img id="u558_img" class="img " src="images/学生列表/u558.png"/>
+          <div id="u558_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u559" class="ax_default table_cell">
+          <img id="u559_img" class="img " src="images/学生列表/u559.png"/>
+          <div id="u559_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u560" class="ax_default table_cell">
+          <img id="u560_img" class="img " src="images/学生列表/u560.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u561" class="ax_default table_cell">
+          <img id="u561_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u561_text" class="text ">
+            <p><span>201610414303</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u562" class="ax_default table_cell">
+          <img id="u562_img" class="img " src="images/学生列表/u542.png"/>
+          <div id="u562_text" class="text ">
+            <p><span>张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u563" class="ax_default table_cell">
+          <img id="u563_img" class="img " src="images/学生列表/u543.png"/>
+          <div id="u563_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u564" class="ax_default table_cell">
+          <img id="u564_img" class="img " src="images/学生列表/u544.png"/>
+          <div id="u564_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u565" class="ax_default table_cell">
+          <img id="u565_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u565_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u566" class="ax_default table_cell">
+          <img id="u566_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u566_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u567" class="ax_default table_cell">
+          <img id="u567_img" class="img " src="images/学生列表/u547.png"/>
+          <div id="u567_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u568" class="ax_default table_cell">
+          <img id="u568_img" class="img " src="images/学生列表/u548.png"/>
+          <div id="u568_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u569" class="ax_default table_cell">
+          <img id="u569_img" class="img " src="images/学生列表/u549.png"/>
+          <div id="u569_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u570" class="ax_default table_cell">
+          <img id="u570_img" class="img " src="images/学生列表/u550.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u571" class="ax_default table_cell">
+          <img id="u571_img" class="img " src="images/学生列表/u499.png"/>
+          <div id="u571_text" class="text ">
+            <p><span>201610414304</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u572" class="ax_default table_cell">
+          <img id="u572_img" class="img " src="images/学生列表/u552.png"/>
+          <div id="u572_text" class="text ">
+            <p><span>李四</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u573" class="ax_default table_cell">
+          <img id="u573_img" class="img " src="images/学生列表/u553.png"/>
+          <div id="u573_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u574" class="ax_default table_cell">
+          <img id="u574_img" class="img " src="images/学生列表/u554.png"/>
+          <div id="u574_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u575" class="ax_default table_cell">
+          <img id="u575_img" class="img " src="images/学生列表/u555.png"/>
+          <div id="u575_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u576" class="ax_default table_cell">
+          <img id="u576_img" class="img " src="images/学生列表/u555.png"/>
+          <div id="u576_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u577" class="ax_default table_cell">
+          <img id="u577_img" class="img " src="images/学生列表/u557.png"/>
+          <div id="u577_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u578" class="ax_default table_cell">
+          <img id="u578_img" class="img " src="images/学生列表/u558.png"/>
+          <div id="u578_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u579" class="ax_default table_cell">
+          <img id="u579_img" class="img " src="images/学生列表/u559.png"/>
+          <div id="u579_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u580" class="ax_default table_cell">
+          <img id="u580_img" class="img " src="images/学生列表/u560.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u581" class="ax_default table_cell">
+          <img id="u581_img" class="img " src="images/学生列表/u493.png"/>
+          <div id="u581_text" class="text ">
+            <p><span>201610414305</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u582" class="ax_default table_cell">
+          <img id="u582_img" class="img " src="images/学生列表/u542.png"/>
+          <div id="u582_text" class="text ">
+            <p><span>王五</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u583" class="ax_default table_cell">
+          <img id="u583_img" class="img " src="images/学生列表/u543.png"/>
+          <div id="u583_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u584" class="ax_default table_cell">
+          <img id="u584_img" class="img " src="images/学生列表/u544.png"/>
+          <div id="u584_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u585" class="ax_default table_cell">
+          <img id="u585_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u585_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u586" class="ax_default table_cell">
+          <img id="u586_img" class="img " src="images/学生列表/u545.png"/>
+          <div id="u586_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u587" class="ax_default table_cell">
+          <img id="u587_img" class="img " src="images/学生列表/u547.png"/>
+          <div id="u587_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u588" class="ax_default table_cell">
+          <img id="u588_img" class="img " src="images/学生列表/u548.png"/>
+          <div id="u588_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u589" class="ax_default table_cell">
+          <img id="u589_img" class="img " src="images/学生列表/u549.png"/>
+          <div id="u589_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u590" class="ax_default table_cell">
+          <img id="u590_img" class="img " src="images/学生列表/u550.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u591" class="ax_default table_cell">
+          <img id="u591_img" class="img " src="images/学生列表/u523.png"/>
+          <div id="u591_text" class="text ">
+            <p><span>201610414306</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u592" class="ax_default table_cell">
+          <img id="u592_img" class="img " src="images/学生列表/u592.png"/>
+          <div id="u592_text" class="text ">
+            <p><span>张思</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u593" class="ax_default table_cell">
+          <img id="u593_img" class="img " src="images/学生列表/u593.png"/>
+          <div id="u593_text" class="text ">
+            <p><span>***</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u594" class="ax_default table_cell">
+          <img id="u594_img" class="img " src="images/学生列表/u594.png"/>
+          <div id="u594_text" class="text ">
+            <p><span style="text-decoration:underline;">Github用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u595" class="ax_default table_cell">
+          <img id="u595_img" class="img " src="images/学生列表/u595.png"/>
+          <div id="u595_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u596" class="ax_default table_cell">
+          <img id="u596_img" class="img " src="images/学生列表/u595.png"/>
+          <div id="u596_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u597" class="ax_default table_cell">
+          <img id="u597_img" class="img " src="images/学生列表/u597.png"/>
+          <div id="u597_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u598" class="ax_default table_cell">
+          <img id="u598_img" class="img " src="images/学生列表/u598.png"/>
+          <div id="u598_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u599" class="ax_default table_cell">
+          <img id="u599_img" class="img " src="images/学生列表/u599.png"/>
+          <div id="u599_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u600" class="ax_default table_cell">
+          <img id="u600_img" class="img " src="images/学生列表/u600.png"/>
+        </div>
+      </div>
+
+      <!-- 借阅按钮 (组 合) -->
+      <div id="u601" class="ax_default" data-label="借阅按钮" data-left="784" data-top="614" data-width="67" data-height="170">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u602" class="ax_default primary_button disabled">
+          <div id="u602_div" class="disabled"></div>
+          <div id="u602_text" class="text ">
+            <p><span>评定成绩</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u603" class="ax_default primary_button disabled">
+          <div id="u603_div" class="disabled"></div>
+          <div id="u603_text" class="text ">
+            <p><span>评定成绩</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u604" class="ax_default primary_button disabled">
+          <div id="u604_div" class="disabled"></div>
+          <div id="u604_text" class="text ">
+            <p><span>评定成绩</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u605" class="ax_default primary_button disabled">
+          <div id="u605_div" class="disabled"></div>
+          <div id="u605_text" class="text ">
+            <p><span>评定成绩</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u606" class="ax_default primary_button disabled">
+          <div id="u606_div" class="disabled"></div>
+          <div id="u606_text" class="text ">
+            <p><span>评定成绩</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u607" class="ax_default box_1">
+        <div id="u607_div" class=""></div>
+        <div id="u607_text" class="text ">
+          <p><span>学生列表用例</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u608" class="ax_default primary_button">
+        <div id="u608_div" class=""></div>
+        <div id="u608_text" class="text ">
+          <p><span>评定成绩</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u609" class="ax_default box_1">
+        <div id="u609_div" class=""></div>
+        <div id="u609_text" class="text ">
+          <p><span>表格1：学生登录，只有学生登录后才可以更改自己的github用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u610" class="ax_default box_1">
+        <div id="u610_div" class=""></div>
+        <div id="u610_text" class="text ">
+          <p><span>学生列表用例</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u611" class="ax_default box_1">
+        <div id="u611_div" class=""></div>
+        <div id="u611_text" class="text ">
+          <p><span>表格2：老师登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u612" class="compound ax_default arrow" WidgetHeight="48" WidgetWidth="1" CompoundMode="true">
+        <img id="u612_img" class="singleImg img " src="images/学生列表/u612.png"/>
+        <div id="u612p000" class="ax_vector_shape" WidgetTopLeftX="-0.444444444444444" WidgetTopLeftY="0.25" WidgetTopRightX="-0.444444444444444" WidgetTopRightY="0" WidgetBottomLeftX="0.444444444444444" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.444444444444444" WidgetBottomRightY="0">
+          <img id="u612p000_img" class="img " src="images/学生列表/u612p000.png"/>
+        </div>
+        <div id="u612p001" class="ax_vector_shape" WidgetTopLeftX="-0.5" WidgetTopLeftY="0" WidgetTopRightX="0" WidgetTopRightY="0" WidgetBottomLeftX="-0.5" WidgetBottomLeftY="12" WidgetBottomRightX="0" WidgetBottomRightY="12">
+          <img id="u612p001_img" class="img " src="images/学生列表/u612p001.png"/>
+        </div>
+        <div id="u612p002" class="ax_vector_shape" WidgetTopLeftX="2" WidgetTopLeftY="-0.05" WidgetTopRightX="2" WidgetTopRightY="0" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="-0.05" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0">
+          <img id="u612p002_img" class="img " src="images/学生列表/u612p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u613" class="ax_default box_1">
+        <div id="u613_div" class=""></div>
+        <div id="u613_text" class="text ">
+          <p><span>超链接到：</span></p><p><span>https://github.com/GitHub用户名/is_analysis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u614" class="compound ax_default arrow" WidgetHeight="301" WidgetWidth="1" CompoundMode="true">
+        <img id="u614_img" class="singleImg img " src="images/学生列表/u614.png"/>
+        <div id="u614p000" class="ax_vector_shape" WidgetTopLeftX="-0.490196078431373" WidgetTopLeftY="0.166666666666667" WidgetTopRightX="-0.490196078431373" WidgetTopRightY="0" WidgetBottomLeftX="0.493464052287582" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.493464052287582" WidgetBottomRightY="0">
+          <img id="u614p000_img" class="img " src="images/学生列表/u614p000.png"/>
+        </div>
+        <div id="u614p001" class="ax_vector_shape" WidgetTopLeftX="-0.5" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.5" WidgetBottomLeftY="75" WidgetBottomRightX="0" WidgetBottomRightY="75">
+          <img id="u614p001_img" class="img " src="images/学生列表/u614p001.png"/>
+        </div>
+        <div id="u614p002" class="ax_vector_shape" WidgetTopLeftX="13.5" WidgetTopLeftY="-0.05" WidgetTopRightX="13.5" WidgetTopRightY="0" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="-0.05" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0">
+          <img id="u614p002_img" class="img " src="images/学生列表/u612p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u615" class="ax_default box_1">
+        <div id="u615_div" class=""></div>
+        <div id="u615_text" class="text ">
+          <p><span>成绩1..6应该是动态的，有多少实验，就有多少列，成绩在0-100之间。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u616" class="compound ax_default arrow" WidgetHeight="245" WidgetWidth="1" CompoundMode="true">
+        <img id="u616_img" class="singleImg img " src="images/学生列表/u616.png"/>
+        <div id="u616p000" class="ax_vector_shape" WidgetTopLeftX="-0.488" WidgetTopLeftY="0" WidgetTopRightX="-0.488" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.492" WidgetBottomLeftY="0" WidgetBottomRightX="0.492" WidgetBottomRightY="-0.166666666666667">
+          <img id="u616p000_img" class="img " src="images/学生列表/u616p000.png"/>
+        </div>
+        <div id="u616p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="61" WidgetBottomRightX="0" WidgetBottomRightY="61">
+          <img id="u616p001_img" class="img " src="images/学生列表/u616p001.png"/>
+        </div>
+        <div id="u616p002" class="ax_vector_shape" WidgetTopLeftX="10.9545454545455" WidgetTopLeftY="0" WidgetTopRightX="10.9545454545455" WidgetTopRightY="0.05" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.05">
+          <img id="u616p002_img" class="img " src="images/学生列表/u616p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u617" class="ax_default box_1">
+        <div id="u617_div" class=""></div>
+        <div id="u617_text" class="text ">
+          <p><span>所有实验的平均成绩。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u618" class="ax_default box_1">
+        <div id="u618_div" class=""></div>
+        <div id="u618_text" class="text ">
+          <p><span>表格1、表格2只能选择其一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u619" class="ax_default primary_button">
+        <div id="u619_div" class=""></div>
+        <div id="u619_text" class="text ">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
